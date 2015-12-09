@@ -1,0 +1,66 @@
+#viewport {
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+}
+
+#grass {
+	position:absolute;
+	bottom: 0;
+	left:0;
+	width: 400%;
+	height: 2.5%;
+}
+
+#qb {
+	position:absolute;
+	bottom:2.5%;
+	left:25px;
+	height:10%;
+	width:auto;
+	z-index:1;
+}
+
+#receiver {
+	position:absolute;
+	height:10%;
+	width:auto;
+	bottom:2.5%;
+	left:25px;
+	z-index:0;
+}
+
+#ball {
+	position: absolute;
+	height:2.25%;
+	width:auto;
+	bottom:12.5%;
+	left:15px;
+	z-index:2;
+}
+
+#alert{
+	display:none;
+	position:fixed;
+	text-align: center;
+	width:25%;
+	top:5%;
+	right:0;
+	left:0;
+	margin-right:auto;
+	margin-left:auto;
+	border: .25em solid #383838;
+	padding: .5em;
+	border-radius: .35em;
+	font-weight: bold;
+}
+
+#hike{
+	display:none;
+	position:fixed;
+	left:32px;
+	bottom:15%;
+	font-weight:bold;
+}
